@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+<h1><%= title1 %></h1>
+<p><%= content1 %></p>
+<div class="display-block">
+<form action="/delete" method="post">
+    <input type="text" class="input-none" name="title" value="<%= title1 %>">
+    <button class="bttn1 bttn-edit" type="submit">Delete</button>
+</form>
+<form action="/edit" method="post">
+    <input type="text" class="input-none" name="edit_title" value="<%= title1 %>">
+    <button class="bttn1" type="submit">Edit</button>
+</form></div>

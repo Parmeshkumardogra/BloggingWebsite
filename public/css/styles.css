@@ -1,0 +1,84 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.coloring{
+    margin: 5px;
+    border: solid;
+    padding-left: 5px;
+}
+.updating-class{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.updated-body{
+    background-color:skyblue;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-default{
+    background-color:tomato
+    
+}
+.navbar-nav  li a:hover {
+    color:black;
+}
+
+.input-none{
+    display: none;
+    width: 0;
+    height: 0;
+}
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color:black;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+.text_input{
+    margin-bottom: 8px;
+    width: 750px;
+    height: 150px;
+}
+.display-block{
+    display: inline-block;
+}
+.bttn1{
+    background-color: rgb(24, 92, 168);
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    width: 70px;
+}
+.bttn1:hover{
+    background-color: orangered;
+}
+.bttn-edit{
+    margin-bottom: 10px;
+}
+.txt{
+    width: 750px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}

@@ -1,0 +1,10 @@
+<%- include("partials/header"); -%>
+<h3><i><%=homeContent %></i></h3> 
+<% for(let i=0; i<blogs.length;i++){ %>
+  <div class="coloring">
+  <h1> <%= blogs[i].blogTitle %></h1>
+  <br>
+  <p><%= blogs[i].blogBody.substring(0,100)+"..." %>
+      <a href="/posts/<%= blogs[i].blogTitle %> ">Read more</a></p>
+  </div>
+<%  } %>

@@ -1,0 +1,10 @@
+db.products.updateOne({id:1},{$set: {stock:32} })
+db.products.insertOne({
+    name:"parmesh",
+    rollno:8718131,
+    branch:"btech
+})
+db.products.find({price:{$gt:1}})
+db.products.deleteOne({
+    id:2
+})
